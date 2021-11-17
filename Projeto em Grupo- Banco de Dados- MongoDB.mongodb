@@ -76,7 +76,7 @@ db.filmes.distinct("Elencos", {Nome:"Duna"});
 // 9- Selecione os filmes lançados em 2001, apresentando seu nome e diretor apenas, em ordem decrescente,limitando a dois resultados.//
 
 
-db.filmes.find({Ano:{$eq:"2001"}}).sort({Nome:-1}).limit(2)
+db.filmes.find({Ano:{$eq:"2001"}}).sort({Nome:-1}).limit(2) // Foi pedido para apresentar apenas o nome e diretor
 
                      
 
